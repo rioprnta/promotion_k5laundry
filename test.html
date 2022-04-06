@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="sweetalert/sweetalert2.min.css">
+</head>
+<style>
+  .swal-wide{
+    margin: auto; transform: translateX(-100%);
+}
+.sweet-alert.sweetalert-lg { width: 100px; }
+
+</style>
+<body>
+  
+
+<button class="first">Title Only</button>
+<button class="second">Title and Text</button>
+<button class="third">Title, Text and Icon</button>
+  <script src="sweetalert/sweetalert2.all.min.js"></script>
+  <script src="sweetalert/sweetalert.min.js"></script>
+</body>
+<script>
+  document.querySelector(".first").addEventListener('click', function(){
+    swal({
+  title: "test",
+  text: "Am I wide?",
+  customClass: 'sweetalert-lg'
+})
+
+});
+
+document.querySelector(".second").addEventListener('click', function(){
+  swal("Our First Alert", "With some body text!");
+});
+
+document.querySelector(".third").addEventListener('click', function(){
+  swal({position: 'top-end',
+  icon: 'success',
+  title: 'Your work has been saved',
+  showConfirmButton: false,
+  timer: 1000});
+});
+</script>
+</html>

@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--MODAL HELEM-->
+    <div id="helem_modal" class="modal fade" role="dialog">
+        <div class="modal-xl modal-dialog modal-dialog-centered">
+          <!-- konten modal-->
+          <div class="modal-content">
+              <!-- heading modal -->
+              <div class="modal-header"><h4 class="modal-title">Detail Helm</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <!-- body modal -->
+              <div class="modal-body ">
+                <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+                  <thead>
+                      <tr class="text-center">
+                        <th scope="col">Jenis Layanan</th>
+                        <th scope="col">Harga</th>
+                      </tr>
+                  </thead>
+                  <tbody class="text-center">
+                    <tr>
+                      <td>Reguler/Biasa</td>
+                      <td>Rp 20.000</td>
+                    </tr>
+                    <tr>
+                      <td>Express</td>
+                      <td>Rp 40.000</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- footer modal -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+          </div>
+      </div>
+
+<!--MODAL KARPET-->
+<div id="karpet_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail Karpet</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Jenis Karpet</th>
+                    <th scope="col">Layanan</th>
+                    <th scope="col">Hitung Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Karpet Super Tebal</td>
+                  <td>Reguler</td>
+                  <td>Luas(M²) x 15.000</td>
+                </tr>
+                <tr>
+                  <td>Karpet Super Tebal</td>
+                  <td>Express</td>
+                  <td>(Luas(M²) x 15.000) x 2</td>
+                </tr>
+                <tr>
+                  <td>Karpet Tebal</td>
+                  <td>Reguler</td>
+                  <td>Luas(M²) x 10.000</td>
+                </tr>
+                <tr>
+                  <td>Karpet Tebal</td>
+                  <td>Express</td>
+                  <td>(Luas(M²) x 10.000) x 2</td>
+                </tr>
+                <tr>
+                  <td>Karpet Tipis</td>
+                  <td>Reguler</td>
+                  <td>Luas(M²) x 9.000</td>
+                </tr>
+                <tr>
+                  <td>Karpet Tipis</td>
+                  <td>Express</td>
+                  <td>(Luas(M²) x 9.000) x 2</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+<!--MODAL SEPATU-->
+<div id="sepatu_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail Sepatu (Sepasang)</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Jenis Layanan</th>
+                    <th scope="col">Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Reguler/Biasa</td>
+                  <td>Rp 20.000</td>
+                </tr>
+                <tr>
+                  <td>Express</td>
+                  <td>Rp 40.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+<!--MODAL JAS-->
+<div id="jas_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail Jas</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Jenis</th>
+                    <th scope="col">Layanan</th>
+                    <th scope="col">Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Hanya Jas/Celana</td>
+                  <td>Reguler</td>
+                  <td>Rp 15.000</td>
+                </tr>
+                <tr>
+                  <td>Hanya Jas/Celana</td>
+                  <td>Express</td>
+                  <td>Rp 30.000</td>
+                </tr>
+
+                <tr>
+                  <td>Stelan Jas (Jas+Celana)</td>
+                  <td>Reguler</td>
+                  <td>Rp 25.000</td>
+                </tr>
+                <tr>
+                  <td>Stelan Jas (Jas+Celana)</td>
+                  <td>Express</td>
+                  <td>Rp 50.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+
+  <!--MODAL BONEKA-->
+<div id="boneka_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail Boneka</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Ukuran</th>
+                    <th scope="col">Layanan</th>
+                    <th scope="col">Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Boneka Besar</td>
+                  <td>Reguler</td>
+                  <td>Rp 40.000</td>
+                </tr>
+                <tr>
+                  <td>Boneka Besar</td>
+                  <td>Express</td>
+                  <td>Rp 80.000</td>
+                </tr>
+
+                <tr>
+                  <td>Boneka Sedang</td>
+                  <td>Reguler</td>
+                  <td>Rp 20.000</td>
+                </tr>
+                <tr>
+                  <td>Boneka Sedang</td>
+                  <td>Express</td>
+                  <td>Rp 40.000</td>
+                </tr>
+                
+                <tr>
+                  <td>Boneka Kecil</td>
+                  <td>Reguler</td>
+                  <td>Rp 10.000</td>
+                </tr>
+                <tr>
+                  <td>Boneka Kecil</td>
+                  <td>Express</td>
+                  <td>Rp 20.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+
+  <!--MODAL KEBAYA-->
+<div id="kebaya_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail Kebaya</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Jenis</th>
+                    <th scope="col">Layanan</th>
+                    <th scope="col">Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Kebaya Biasa</td>
+                  <td>Reguler</td>
+                  <td>Rp 15.000</td>
+                </tr>
+                <tr>
+                  <td>Kebaya Biasa</td>
+                  <td>Express</td>
+                  <td>Rp 30.000</td>
+                </tr>
+                <tr>
+                  <td>Kebaya Brokat</td>
+                  <td>Reguler</td>
+                  <td>Rp 15.000</td>
+                </tr>
+                <tr>
+                  <td>Kebaya Brokat</td>
+                  <td>Express</td>
+                  <td>Rp 30.000</td>
+                </tr>
+                <tr>
+                  <td>Kebaya Fayet/Monte2</td>
+                  <td>Reguler</td>
+                  <td>Rp 25.000</td>
+                </tr>
+                <tr>
+                  <td>Kebaya Fayet/Monte2</td>
+                  <td>Express</td>
+                  <td>Rp 50.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+
+  <!--MODAL TAS-->
+<div id="tas_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail Tas</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Jenis</th>
+                    <th scope="col">Layanan</th>
+                    <th scope="col">Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Tas Ransel</td>
+                  <td>Reguler</td>
+                  <td>Rp 15.000</td>
+                </tr>
+                <tr>
+                  <td>Tas Ransel</td>
+                  <td>Express</td>
+                  <td>Rp 30.000</td>
+                </tr>
+                <tr>
+                  <td>Tas Wanita</td>
+                  <td>Reguler</td>
+                  <td>Rp 20.000</td>
+                </tr>
+                <tr>
+                  <td>Tas Wanita</td>
+                  <td>Express</td>
+                  <td>Rp 40.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+
+  <!--MODAL BEDCOVER-->
+<div id="bedcover_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail Bedcover</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Jenis</th>
+                    <th scope="col">Layanan</th>
+                    <th scope="col">Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Bedcover Anak/Bayi</td>
+                  <td>Reguler</td>
+                  <td>Rp 27.000</td>
+                </tr>
+                <tr>
+                  <td>Bedcover Anak/Bayi</td>
+                  <td>Express</td>
+                  <td>Rp 54.000</td>
+                </tr>
+                <tr>
+                  <td>Bedcover SINGLE</td>
+                  <td>Reguler</td>
+                  <td>Rp 27.000</td>
+                </tr>
+                <tr>
+                  <td>Bedcover SINGLE</td>
+                  <td>Express</td>
+                  <td>Rp 54.000</td>
+                </tr>
+                <tr>
+                  <td>Bedcover DOUBLE</td>
+                  <td>Reguler</td>
+                  <td>Rp 32.000</td>
+                </tr>
+                <tr>
+                  <td>Bedcover DOUBLE</td>
+                  <td>Express</td>
+                  <td>Rp 64.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+  <!--MODAL Songket/Sarung-->
+<div id="sarung_modal" class="modal fade" role="dialog">
+  <div class="modal-xl modal-dialog modal-dialog-centered modal-dialog-centered">
+    <!-- konten modal-->
+    <div class="modal-content">
+        <!-- heading modal -->
+        <div class="modal-header"><h4 class="modal-title">Detail Sarung/Songket</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- body modal -->
+        <div class="modal-body ">
+          <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+            <thead>
+                <tr class="text-center">
+                  <th scope="col">Jenis</th>
+                  <th scope="col">Layanan</th>
+                  <th scope="col">Harga</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+              <tr>
+                <td>Sarung Biasa</td>
+                <td>Reguler</td>
+                <td>Rp 7.000</td>
+              </tr>
+              <tr>
+                <td>Sarung Biasa</td>
+                <td>Express</td>
+                <td>Rp 14.000</td>
+              </tr>
+              <tr>
+                <td>Selendang Songket</td>
+                <td>Reguler</td>
+                <td>Rp 15.000</td>
+              </tr>
+              <tr>
+                <td>Selendang Songket</td>
+                <td>Express</td>
+                <td>Rp 30.000</td>
+              </tr>
+              <tr>
+                <td>Sarung Songket</td>
+                <td>Reguler</td>
+                <td>Rp 15.000</td>
+              </tr>
+              <tr>
+                <td>Sarung Songket</td>
+                <td>Express</td>
+                <td>Rp 30.000</td>
+              </tr>
+              <tr>
+                <td>Songket/Songket Clothes(1 Stel)</td>
+                <td>Reguler</td>
+                <td>Rp 25.000</td>
+              </tr>
+              <tr>
+                <td>Songket/Songket Clothes(1 Stel)</td>
+                <td>Express</td>
+                <td>Rp 50.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- footer modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!--MODAL SPREI-->
+<div id="sprei_modal" class="modal fade" role="dialog">
+  <div class="modal-xl modal-dialog modal-dialog-centered modal-dialog-centered">
+    <!-- konten modal-->
+    <div class="modal-content">
+        <!-- heading modal -->
+        <div class="modal-header"><h4 class="modal-title">Detail Sprei</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- body modal -->
+        <div class="modal-body ">
+          <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+            <thead>
+                <tr class="text-center">
+                  <th scope="col">Jenis</th>
+                  <th scope="col">Layanan</th>
+                  <th scope="col">Harga</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+              <tr>
+                <td>Sprei Kecil + 2B + 2G (1 Set)</td>
+                <td>Reguler</td>
+                <td>Rp 13.000</td>
+              </tr>
+              <tr>
+                <td>Sprei Kecil + 2B + 2G (1 Set)</td>
+                <td>Reguler</td>
+                <td>Rp 26.000</td>
+              </tr>
+              <tr>
+                <td>Sprei Besar + 2B + 2G (1 Set)</td>
+                <td>Express</td>
+                <td>Rp 15.000</td>
+              </tr>
+              <tr>
+                <td>Sprei Besar + 2B + 2G (1 Set)</td>
+                <td>Express</td>
+                <td>Rp 30.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- footer modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!--MODAL GAUN-->
+<div id="gaun_modal" class="modal fade" role="dialog">
+  <div class="modal-xl modal-dialog modal-dialog-centered modal-dialog-centered">
+    <!-- konten modal-->
+    <div class="modal-content">
+        <!-- heading modal -->
+        <div class="modal-header"><h4 class="modal-title">Detail Gaun</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- body modal -->
+        <div class="modal-body ">
+          <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+            <thead>
+                <tr class="text-center">
+                  <th scope="col">Jenis</th>
+                  <th scope="col">Layanan</th>
+                  <th scope="col">Harga</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+              <tr>
+                <td>Gaun Panjang/Gamys</td>
+                <td>Reguler</td>
+                <td>Rp 20.000</td>
+              </tr>
+              <tr>
+                <td>Gaun Panjang/Gamys</td>
+                <td>Express</td>
+                <td>Rp 40.000</td>
+              </tr>
+              <tr>
+                <td>Gaun Pesta Evening Dress</td>
+                <td>Reguler</td>
+                <td>Rp 25.000</td>
+              </tr>
+              <tr>
+                <td>Gaun Pesta Evening Dress</td>
+                <td>Express</td>
+                <td>Rp 50.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- footer modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!--MODAL Gorden-->
+<div id="gorden_modal" class="modal fade" role="dialog">
+  <div class="modal-xl modal-dialog modal-dialog-centered modal-dialog-centered">
+    <!-- konten modal-->
+    <div class="modal-content">
+        <!-- heading modal -->
+        <div class="modal-header"><h4 class="modal-title">Detail Gordyn</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- body modal -->
+        <div class="modal-body ">
+          <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+            <thead>
+                <tr class="text-center">
+                  <th scope="col">Jenis</th>
+                  <th scope="col">Layanan</th>
+                  <th scope="col">Harga</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+              <tr>
+                <td>Gordyn Tipis (M²)</td>
+                <td>Reguler</td>
+                <td>Luas(M²) x 8.000</td>
+              </tr>
+              <tr>
+                <td>Gordyn Tipis (M²)</td>
+                <td>Express</td>
+                <td>(Luas(M²) x 8.000) x 2</td>
+              </tr>
+              <tr>
+                <td>Gordyn Tebal/Curtain (M²)</td>
+                <td>Reguler</td>
+                <td>Luas(M²) x 10.000</td>
+              </tr>
+              <tr>
+                <td>Gordyn Tebal/Curtain (M²)</td>
+                <td>Express</td>
+                <td>(Luas(M²) x 10.000) x 2</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- footer modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+<!--MODAL SELIMUT-->
+    <div id="selimut_modal" class="modal fade" role="dialog">
+        <div class="modal-xl modal-dialog modal-dialog-centered">
+          <!-- konten modal-->
+          <div class="modal-content">
+              <!-- heading modal -->
+              <div class="modal-header"><h4 class="modal-title">Detail Selimut</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <!-- body modal -->
+              <div class="modal-body ">
+                <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+                  <thead>
+                      <tr class="text-center">
+                        <th scope="col">Jenis</th>
+                        <th scope="col">Layanan</th>
+                        <th scope="col">Harga</th>
+                      </tr>
+                  </thead>
+                  <tbody class="text-center">
+                    <tr>
+                      <td>Selimut Bayi</td>
+                      <td>Reguler/Biasa</td>
+                      <td>Rp 13.000</td>
+                    </tr>
+                    <tr>
+                      <td>Selimut Bayi</td>
+                      <td>Express</td>
+                      <td>Rp 26.000</td>
+                    </tr>
+                    <tr>
+                      <td>Selimut Dewasa (SINGLE)</td>
+                      <td>Reguler/Biasa</td>
+                      <td>Rp 15.000</td>
+                    </tr>
+                    <tr>
+                      <td>Selimut Dewasa (SINGLE)</td>
+                      <td>Express</td>
+                      <td>Rp 30.000</td>
+                    </tr>
+                    <tr>
+                      <td>Selimut Dewasa (DOUBLE)</td>
+                      <td>Reguler/Biasa</td>
+                      <td>Rp 27.000</td>
+                    </tr>
+                    <tr>
+                      <td>Selimut Dewasa (DOUBLE)</td>
+                      <td>Express</td>
+                      <td>Rp 54.000</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- footer modal -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+          </div>
+      </div>
+
+<!--MODAL JAKET-->
+<div id="jaket_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail Jaket</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Jenis Jaket</th>
+                    <th scope="col">Layanan</th>
+                    <th scope="col">Hitung Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Jaket Kulit</td>
+                  <td>Reguler</td>
+                  <td>25.000</td>
+                </tr>
+                <tr>
+                  <td>Jaket Kulit</td>
+                  <td>Express</td>
+                  <td>50.000</td>
+                </tr>
+                <tr>
+                  <td>Jaket Kain</td>
+                  <td>Reguler</td>
+                  <td>12.000</td>
+                </tr>
+                <tr>
+                  <td>Jaket Kain</td>
+                  <td>Express</td>
+                  <td>24.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+<!--MODAL CD/BH-->
+<div id="cd_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail CD/BH</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Jenis Layanan</th>
+                    <th scope="col">Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Reguler/Biasa</td>
+                  <td>Rp 2.000</td>
+                </tr>
+                <tr>
+                  <td>Express</td>
+                  <td>Rp 4.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+<!--MODAL KOPER-->
+<div id="koper_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail Koper</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Jenis Koper</th>
+                    <th scope="col">Layanan</th>
+                    <th scope="col">Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Koper (S)</td>
+                  <td>Reguler</td>
+                  <td>Rp 30.000</td>
+                </tr>
+                <tr>
+                  <td>Koper (S)</td>
+                  <td>Express</td>
+                  <td>Rp 60.000</td>
+                </tr>
+                <tr>
+                  <td>Koper (M)</td>
+                  <td>Reguler</td>
+                  <td>Rp 40.000</td>
+                </tr>
+                <tr>
+                  <td>Koper (M)</td>
+                  <td>Express</td>
+                  <td>Rp 80.000</td>
+                </tr>
+                <tr>
+                  <td>Koper (L)</td>
+                  <td>Reguler</td>
+                  <td>Rp 50.000</td>
+                </tr>
+                <tr>
+                  <td>Koper (L)</td>
+                  <td>Express</td>
+                  <td>Rp 100.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+
+  <!--MODAL KASUR PALEMBANG-->
+<div id="kasurpalembang_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail Kasur Palembang</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Layanan</th>
+                    <th scope="col">Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Reguler</td>
+                  <td>Rp 40.000</td>
+                </tr>
+                <tr>
+                  <td>Express</td>
+                  <td>Rp 80.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+
+  <!--MODAL TAPLAK MEJA-->
+<div id="taplakmeja_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail Taplak Meja</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Jenis</th>
+                    <th scope="col">Layanan</th>
+                    <th scope="col">Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Taplak Meja Kecil</td>
+                  <td>Reguler</td>
+                  <td>Rp 7.000</td>
+                </tr>
+                <tr>
+                  <td>Taplak Meja Kecil</td>
+                  <td>Express</td>
+                  <td>Rp 14.000</td>
+                </tr>
+                <tr>
+                  <td>Taplak Meja Besar</td>
+                  <td>Reguler</td>
+                  <td>Rp 10.000</td>
+                </tr>
+                <tr>
+                  <td>Taplak Meja Besar</td>
+                  <td>Express</td>
+                  <td>Rp 20.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+
+  <!--MODAL HANDUK-->
+<div id="handuk_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail Handuk</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Jenis</th>
+                    <th scope="col">Layanan</th>
+                    <th scope="col">Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Handuk Kecil</td>
+                  <td>Reguler</td>
+                  <td>Rp 7.000</td>
+                </tr>
+                <tr>
+                  <td>Handuk Kecil</td>
+                  <td>Express</td>
+                  <td>Rp 14.000</td>
+                </tr>
+                <tr>
+                  <td>Handuk Besar</td>
+                  <td>Reguler</td>
+                  <td>Rp 9.000</td>
+                </tr>
+                <tr>
+                  <td>Handuk Besar</td>
+                  <td>Express</td>
+                  <td>Rp 18.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+
+  <!--MODAL BANTAL-->
+<div id="bantal_modal" class="modal fade" role="dialog">
+    <div class="modal-xl modal-dialog modal-dialog-centered modal-dialog-centered">
+      <!-- konten modal-->
+      <div class="modal-content">
+          <!-- heading modal -->
+          <div class="modal-header"><h4 class="modal-title">Detail Bantal</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- body modal -->
+          <div class="modal-body ">
+            <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+              <thead>
+                  <tr class="text-center">
+                    <th scope="col">Layanan</th>
+                    <th scope="col">Harga</th>
+                  </tr>
+              </thead>
+              <tbody class="text-center">
+                <tr>
+                  <td>Reguler</td>
+                  <td>Rp 15.000</td>
+                </tr>
+                <tr>
+                  <td>Express</td>
+                  <td>Rp 30.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- footer modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
+
+  <!--MODAL TOPI-->
+<div id="topi_modal" class="modal fade" role="dialog">
+  <div class="modal-xl modal-dialog modal-dialog-centered modal-dialog-centered">
+    <!-- konten modal-->
+    <div class="modal-content">
+        <!-- heading modal -->
+        <div class="modal-header"><h4 class="modal-title">Detail Topi</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- body modal -->
+        <div class="modal-body ">
+          <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+            <thead>
+                <tr class="text-center">
+                  <th scope="col">Layanan</th>
+                  <th scope="col">Harga</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+              <tr>
+                <td>Reguler</td>
+                <td>Rp 6.000</td>
+              </tr>
+              <tr>
+                <td>Express</td>
+                <td>Rp 12.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- footer modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!--MODAL DASI-->
+<div id="dasi_modal" class="modal fade" role="dialog">
+  <div class="modal-xl modal-dialog modal-dialog-centered modal-dialog-centered">
+    <!-- konten modal-->
+    <div class="modal-content">
+        <!-- heading modal -->
+        <div class="modal-header"><h4 class="modal-title">Detail Dasi</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- body modal -->
+        <div class="modal-body ">
+          <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+            <thead>
+              <tr class="text-center">
+                <th scope="col">Layanan</th>
+                <th scope="col">Harga</th>
+              </tr>
+            </thead>
+            <tbody class="text-center">
+              <tr>
+                <td>Reguler</td>
+                <td>Rp 6.000</td>
+              </tr>
+              <tr>
+                <td>Express</td>
+                <td>Rp 12.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- footer modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!--MODAL ROMPI-->
+<div id="rompi_modal" class="modal fade" role="dialog">
+  <div class="modal-xl modal-dialog modal-dialog-centered modal-dialog-centered">
+    <!-- konten modal-->
+    <div class="modal-content">
+        <!-- heading modal -->
+        <div class="modal-header"><h4 class="modal-title">Detail Rompi</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- body modal -->
+        <div class="modal-body ">
+          <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+            <thead>
+                <tr class="text-center">
+                  <th scope="col">Layanan</th>
+                  <th scope="col">Harga</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+              <tr>
+                <td>Reguler</td>
+                <td>Rp 15.000</td>
+              </tr>
+              <tr>
+                <td>Express</td>
+                <td>Rp 30.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- footer modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!--MODAL WEDDING DRESS-->
+<div id="dress_modal" class="modal fade" role="dialog">
+  <div class="modal-xl modal-dialog modal-dialog-centered modal-dialog-centered">
+    <!-- konten modal-->
+    <div class="modal-content">
+        <!-- heading modal -->
+        <div class="modal-header"><h4 class="modal-title">Detail Wedding Dress</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- body modal -->
+        <div class="modal-body ">
+          <table class="styleds-table" style="width: 88%;margin-left:auto;margin-right:auto">
+            <thead>
+                <tr class="text-center">
+                  <th scope="col">Layanan</th>
+                  <th scope="col">Harga</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+              <tr>
+                <td>Reguler</td>
+                <td>75.000</td>
+              </tr>
+              <tr>
+                <td>Express</td>
+                <td>150.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- footer modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<!--MODAL LOWOGAN KERJA-->
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header"><h4 class="modal-title">Info Lowongan Kerja</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <center><img src="images/Laundry/DESIGN 1.jpg" style="width:200px;height:200px"></center> <h4 align="center"> 
+                      Dibuka lowongan pekerjaan khusus wanita (Dibutuhkan Segera !!)</h4>
+                      <p class="text-center">Hubungi wa kami di (08126404686) atau </p>
+                      <p class="text-center" style="margin-top:-20px;">langsung datang ke lokasi yang ada di paling bawah website ini (Navigasi). Terima Kasih.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Oke</button>
+                </div>
+            </div>
+    
+        </div>
+      </div>

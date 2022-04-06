@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KR5 Laundry</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900|Oswald:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      
+      img[alt="www.000webhost.com"]{display:none;}
+      
+      .ftco-media-1 > .ftco-media-1-inner::after {
+            width: 90%;
+          left: 10px;
+      }
+      
+      figure {
+  display: block;
+}
+  </style>
+  </head>
+  
+  
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header"><h4 class="modal-title">Info Lowongan Kerja</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <center><img src="images/kr5_ps.png" style="width:80px;height:80px"></center> <h4 align="center"> Dibuka lowongan pekerjaan khusus wanita (Dibutuhkan Segera !!)</h4> Hubungi wa kami di (08126404686) atau <br> langsung datang ke lokasi yang ada di paling bawah website ini (Navigasi). Terima Kasih.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">Oke</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-3  d-inline-block d-xl-none ml-md-0 py-3">
+            <a href="#" class="site-menu-toggle js-menu-toggle text-white float-left">
+              <span class="icon-menu h3"></span>
+            </a>
+          </div>
+
+          <div class="col-0">
+            <h5 class="mb-0 site-logo m-0 p-0">
+              <a href="index.html"><img src="images/kr5_ps.png" style="width:100px;height:100px"/>
+                <font size="3">KR5 Laundry & Dry Clean</font>
+              </a>
+            </h5>
+          </div>
+
+          <div class="col-md-15 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#properties-section" class="nav-link">Produk & Layanan</a></li>
+                <li><a href="#agents-section" class="nav-link">Pemilik</a></li>
+                <li><a href="#howitworks-section" class="nav-link">About</a></li>
+                <!-- <li><a href="#news-section" class="nav-link">News</a></li> -->
+                <!-- <li><a href="#contact-section" class="nav-link">Contact</a></li> -->
+                <li><a href="https://wa.me/628126404686" class="nav-link">
+			  Chat Kami <img src="images/Laundry/wa.png" style="width:20px;height:20px" class="mb-1"/></a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          
+
+        </div>
+      </div>
+      
+    </header>
+
+    
+    <div class="site-block-wrap">
+    <div class="owl-carousel with-dots">
+      <div class="site-blocks-cover overlay overlay-2" style="background-image: url(images/ruangkomputer2.png);" data-aos="fade" id="home-section">
+
+
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 mt-lg-5 text-center">
+              <h1 class="text-shadow">Laundry Kiloan <br>&amp; <br>Jasa Jemput Karpet</h1>
+              <p class="mb-5 text-shadow">Langsung door to door untuk daerah Medan Tuntugan & sekitarnya.</p>
+              <!--<p><a href="#" target="_blank" class="btn btn-primary px-5 py-3">Get Started</a></p> -->
+              
+            </div>
+          </div>
+        </div>
+  
+        
+      </div>  
+  
+      <div class="site-blocks-cover overlay overlay-2" style="background-image: url(images/ruangkomputer4.png);" data-aos="fade" id="home-section">
+  
+  
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 mt-lg-5 text-center">
+              <h1 class="text-shadow">Duduk & Santai. <br> Kami Datang Untuk Anda!</h1>
+              <p class="mb-5 text-shadow">Gunakan waktu anda dengan santai,  biarkan kami bersihkan pakaian Anda karena itu memang tugas kami. Anda cukup menekan tombol pesan di aplikasi maka kami akan hadir untuk anda.</p>
+              <!--<p><a href="#" target="_blank" class="btn btn-primary px-5 py-3">Get Started</a></p>-->
+              
+            </div>
+          </div>
+        </div>
+  
+        
+      </div>  
+
+      <div class="site-blocks-cover overlay overlay-2" style="background-image: url(images/ruangkomputer.png);" data-aos="fade" id="home-section">
+
+
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 mt-lg-5 text-center">
+              <h1 class="text-shadow">Sayang Istri</h1>
+              <p class="mb-5 text-shadow">Jangan Biarkan Tangan Lembutnya Rusak Karena Mencuci, Karena Itu Adalah Tugas Kami</p>
+              <!--<p><a href="#" target="_blank" class="btn btn-primary px-5 py-3">Get Started</a></p> -->
+              
+            </div>
+          </div>
+        </div>
+  
+        
+      </div>  
+
+      <div class="site-blocks-cover overlay overlay-2" style="background-image: url(images/ruangkomputer3.png);" data-aos="fade" id="home-section">
+
+
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 mt-lg-5 text-center">
+              <h1 class="text-shadow">Bagi Kami Kenyamanan Pelanggan Adalah Nomor 1</h1>
+              <p class="mb-5 text-shadow">Kami Sangat Menerima Masukkan Untuk Memperbaiki Kualitas Layanan Kami :)</p>
+              <!--<p><a href="#" target="_blank" class="btn btn-primary px-5 py-3">Get Started</a></p> -->
+              
+            </div>
+          </div>
+        </div>
+  
+        
+      </div>  
+    </div>   
+    
+  </div>      
+
+
+  <div class="site-section1" id="properties-section">
+    <div class="container">
+        <div class="col-md-7 text-left">
+          <h2 class="section-title mb-3">Harga Cucian Produk</h2>
+          <p class="lead">Harga yang sangat terjangkau untuk hasil yang terbaik</p>
+        </div>
+    </div>
+    <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-5 ">
+            <div class="ftco-media-1">
+              <div class="ftco-media-1-inner">
+                <a class="d-inline-block mb-4"><img  style="height: 260px;" src="images/Laundry/helm.jpg" alt="FImageo" class="gambarcircle"></a>
+                <div class="ftco-media-details">
+                  <h3>Helm</h3>
+                  <p>Harga Satuan</p>
+                  <strong>Rp 20.000</strong>
+                </div>
+  
+              </div> 
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-5 ">
+              <div class="ftco-media-1">
+                  <div class="ftco-media-1-inner">
+                    <a class="d-inline-block mb-4"><img style="height: 260px;" src="images/Laundry/cucikarpet.jpg" alt="Image" class="gambarcircle"></a>
+                    <div class="ftco-media-details">
+                      <h3>Karpet</h3>
+                      <p>Per Meter dan Tebal</p>
+                      <strong>Rp (8.000-12.000)/m</strong>
+                    </div>
+      
+                  </div> 
+                </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-5 ">
+              <div class="ftco-media-1">
+                  <div class="ftco-media-1-inner">
+                    <a class="d-inline-block mb-4"><img style="height: 260px;" src="images/Laundry/sepatu.jpg" alt="Image" class="gambarcircle"></a>
+                    <div class="ftco-media-details">
+                      <h3>Sepatu Pria/Wanita</h3>
+                      <p>Harga Satuan</p>
+                      <strong>Rp 20.000</strong>
+                    </div>
+      
+                  </div> 
+                </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-5 ">
+              <div class="ftco-media-1">
+                <div class="ftco-media-1-inner">
+                  <a class="d-inline-block mb-4"><img style="height: 260px;" src="images/Laundry/jas.jpg" alt="Image" class="gambarcircle"></a>
+                  <div class="ftco-media-details">
+                    <h3>Jas</h3>
+                    <p>1 Stell (Jas & Celana)</p>
+                    <strong>Rp 20.000</strong>
+                  </div>
+    
+                </div> 
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-5 mb-lg-5 ">
+                <div class="ftco-media-1">
+                    <div class="ftco-media-1-inner">
+                      <a class="d-inline-block mb-4"><img style="height: 260px;" src="images/Laundry/boneka.jpg" alt="Image" class="gambarcircle"></a>
+                      <div class="ftco-media-details">
+                        <h3>Boneka</h3>
+                        <p>Berdasarkan Ukuran</p>
+                        <strong>Rp 10.000 - 40.000</strong>
+                      </div>
+        
+                    </div> 
+                  </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-5 mb-lg-5 ">
+                <div class="ftco-media-1">
+                    <div class="ftco-media-1-inner">
+                      <a class="d-inline-block mb-4"><img style="height: 260px;" src="images/Laundry/kebaya.jpg" alt="Image" class="gambarcircle"></a>
+                      <div class="ftco-media-details">
+                        <h3>Kebaya</h3>
+                        <p>Model & Fayet</p>
+                        <strong>Rp 15.000 - 25.000</strong>
+                      </div>
+        
+                    </div> 
+                  </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-5 mb-lg-5 ">
+              <div class="ftco-media-1">
+                  <div class="ftco-media-1-inner">
+                    <a class="d-inline-block mb-4"><img style="height: 260px;" src="images/Laundry/tas.jpg" alt="Image" class="gambarcircle"></a>
+                    <div class="ftco-media-details">
+                      <h3>Tas Wanita/Pria</h3>
+                      <p>Bahan & Ukuran</p>
+                      <strong>Rp 15.000 - 20.000</strong>
+                    </div>
+      
+                  </div> 
+                </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-5 mb-lg-5 ">
+            <div class="ftco-media-1">
+                <div class="ftco-media-1-inner">
+                  <a class="d-inline-block mb-4"><img style="height: 260px;" src="images/Laundry/bedcover.jpg" alt="Image" class="gambarcircle"></a>
+                  <div class="ftco-media-details">
+                    <h3>Bedcover</h3>
+                    <p>Ukuran & Tebal</p>
+                    <strong>Rp 27.000 - 32.000</strong>
+                  </div>
+    
+                </div> 
+              </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <section class="site-section1" id="agents-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="text-left">
+            <h2 class="section-title mb-3">Pemilik Toko</h2>
+            <p class="lead">Toko Laundry ini dimanajemen oleh keluarga sendiri :)</p>
+          </div>
+        </div>
+
+        <!--Pemilik!-->
+		<div class="row"> 
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="container team-member">
+              <figure>
+                <ul class="social">
+                  <li class="m-3"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="m-3"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="m-3"><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img style="height: 330px; width: 350px" src="images/Pemilik/bapak.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 warnadasar gambarcirclebwh">
+                <h3 class="mb-2">(Alm) Kasiman Perangin-angin</h3>
+                <span class="position">Owner</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="container team-member">
+              <figure>
+                <ul class="social">
+                  <li class="m-3"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="m-3"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="m-3"><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img style="height: 330px; width: 350px" src="images/Pemilik/mama.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 warnadasar gambarcirclebwh">
+                <h3 class="mb-2">Rustiana Pandiangan</h3>
+                <span class="position">Owner</span>
+              </div>
+            </div>
+          </div>
+<!--
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li class="m-3"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="m-3"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="m-3"><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img style="width: 350px; height: 330px;" src="images/Pemilik/Bray.JPG" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 warnadasar gambarcirclebwh">
+                <h3 class="mb-2">Ray Christian Perangin-angin</h3>
+                <span class="position">Anak Ke-1</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4  mb-4">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li class="m-3"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="m-3"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="m-3"><a href="https://www.instagram.com/riopranata__/"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img style="width: 350px ;height: 330px;" src="images/Pemilik/Rio Pranata P.JPG" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 warnadasar gambarcirclebwh">
+                <h3 class="mb-2">Rio Pranata Perangin-angin</h3>
+                <span class="position">Anak Ke-2</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li class="m-3"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="m-3"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="m-3"><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img style="height: 330px; width: 350px" src="images/Pemilik/ryan.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 warnadasar gambarcirclebwh">
+                <h3 class="mb-2">Ryan Perangin-angin</h3>
+                <span class="position">Anak Ke-3</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li class="m-3"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="m-3"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="m-3"><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img style="height: 330px; width: 350px" src="images/Pemilik/ricco.jpeg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3 warnadasar gambarcirclebwh">
+                <h3 class="mb-2">Ricco Perangin-angin</h3>
+                <span class="position">Anak Ke-4</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+-->
+      </div>
+    </section>
+
+    <section class="py-5 warnadasar site-section how-it-works" id="howitworks-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="section-title mb-3 text-black">Bagaimana Cara Kerjanya</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="pr-5 first-step">
+              <span class="text-black">01.</span>
+              <span class="custom-icon flaticon-house text-black"></span>
+              <h3 class="text-black">Memilah pakaian berdasarkan kategori</h3>
+              <p class="text-black"></p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="pr-5 second-step">
+              <span class="text-black">02.</span>
+              <span class="custom-icon flaticon-coin text-black"></span>
+              <h3 class="text-black">Melist barang ke Nota berdasarkan harga</h3>
+              <p class="text-black"></p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="pr-5">
+              <span class="text-black">03.</span>
+              <span class="custom-icon flaticon-home text-black"></span>
+              <h3 class="text-black">Proses Laundry dilakukan berdasarkan jenis pelayanan yang di pilih</h3>
+              <p class="text-black"></p>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+
+<!--
+    <section class="site-section1" id="about-section">
+      <div class="container">
+        
+        <div class="row large-gutters">
+          <div class="col-lg-6 mb-5">
+
+              <div class="owl-carousel slide-one-item with-dots">
+                  <div><img src="images/img_1.jpg" alt="Image" class="img-fluid"></div>
+                  <div><img src="images/img_2.jpg" alt="Image" class="img-fluid"></div>
+                  <div><img src="images/img_3.jpg" alt="Image" class="img-fluid"></div>
+                </div>
+
+          </div>
+          <div class="col-lg-6 ml-auto">
+            
+            <h2 class="section-title mb-3">Warehouse Real Estate Template</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi voluptas impedit  Quo suscipit omnis iste velit maxime.</p>
+
+                <ul class="list-unstyled ul-check success">
+                  <li>Placeat maxime animi minus</li>
+                  <li>Dolore qui placeat maxime</li>
+                  <li>Consectetur adipisicing</li>
+                  <li>Lorem ipsum dolor</li>
+                  <li>Placeat molestias animi</li>
+                </ul>
+
+                <p><a href="#" class="btn warnadasar mr-2 mb-2"><font color="white">Learn More</font></a></p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+-->
+    
+
+    <section class="site-section1 bg-light" id="services-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Jasa Laundry Kami  </h2>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4">
+              <div><span class="text-primary">
+                <img src="icon/timbangan.png" width="50px" style="display: block; margin: auto;">
+              </span></div>
+              <div style="text-align:center">
+                <h3>Laundry Kiloan</h3>
+                <p>Jasa laundry baju kiloan di KR5 Laundry & Dry Clean, cocok untuk pakaian sehari-hari. Sudah termasuk cuci, gosok dan lipat. Bisa antar-jemput</p>
+                <!-- <p><a class="warnakata" href="#">Detail Laundry Kiloan  >></a></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4">
+              <div><span class="text-primary">
+                <img src="icon/tshirt.png" width="50px" style="display: block; margin: auto;">
+              </span></div>
+              <div style="text-align:center">
+                <h3>Laundry Satuan</h3>
+                <p>Jasa laundry satuan seperti kemeja, jas dll.  Sangat cocok untuk pakaian spesial anda. Pengerjaan yang detail, bersih  dengan harga terjangkau.</p>
+                <!-- <p><a class="warnakata" href="#">Detail Laundry Satuan >></a></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4">
+              <div><span class="text-primary">
+                <img src="icon/carpet.png" width="50px" style="display: block; margin: auto;">
+              </span></div>
+              <div style="text-align:center">
+                <h3>Jasa Cuci Karpet</h3>
+                <p>Kami mengerjakan cuci karpet rumah, masjid dan cuci karpet kantor wilayah Kecamatan Medan Tuntungan, kami siap datang ke lokasi.</p>
+                <!-- <p><a class="warnakata" href="#">Detail Cuci Karpet >></a></p> -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="unit-4" >
+              <div><span class="text-primary">
+                <img src="icon/sofa.png" width="50px" style="display: block; margin: auto;">
+              </span></div>
+              <div style="text-align:center">
+                <h3>Cuci Sofa & Spring Bed</h3>
+                <p>Kami mengerjakan cuci sofa, kursi kantor, spring bed dll. Khusus Kecamatan Medan Tuntungan kami menerima order laundry panggilan.</p>
+                <!-- <p><a class="warnakata" href="#">Detail Cuci Sofa & Spring Bed >></a></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="unit-4">
+              <div><span class="text-primary">
+                <img src="icon/shoes.png" width="50px" style="display: block; margin: auto;">
+              </span></div>
+              <div style="text-align:center">
+                <h3>Laundry Sepatu</h3>
+                <p>Ingin sepatu anda selalu bersih dan wangi, kami akan membersihkan dan memberikan perawatan pada sepatu kesayangan anda.</p>
+                <!-- <p><a class="warnakata" href="#">Detail Laundry Sepatu >></a></p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="unit-4">
+              <div><span class="text-primary">
+                <img src="icon/baby.png" width="50px" style="display: block; margin: auto;">
+              </span></div>
+              <div style="text-align:center">
+                <h3>Jasa Cuci Perlengkapan Bayi</h3>
+                <p>Laundry perlengkapan bayi anda seperti stroller, box bayi dengan harga terjangkau, bersih, cepat dan kami melayani antar jemput.</p>
+                <!-- <p><a class="warnakata" href="#">Detail Laundry Perlengkapan Bayi >></a></p> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section1 testimonial-wrap" id="testimonials-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Testimoni<h2>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="ftco-testimonial-1">
+                  <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
+                    <img src="images/Customer/customer1.jpg" alt="Image" class="img-fluid mr-3">
+                    <div>
+                      <h3>Obin Mitra El Daeli</h3>
+                      <span>Customer</span>
+                    </div>
+                  </div>
+                  <div>
+                    <p>Pelayanan sangat ramah sehingga saya merasa nyaman apalagi harga cukup murah jika dibandingkan dengan tempat lain</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                  <div class="ftco-testimonial-1">
+                      <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
+                        <img src="images/Customer/customer2.jpg" alt="Image" class="img-fluid mr-3">
+                        <div>
+                          <h3>Setia Budiman Harefa</h3>
+                          <span>Customer</span>
+                        </div>
+                      </div>
+                      <div>
+                        <p>Setiap minggu saya rutin mencuci disini, pelayanannya bagus harga juga terjangkau dan hasilnya juga bagus tidak apek seperti tempat laundry saya sebelumnya, terima kasih </p>
+                      </div>
+                    </div>
+              </div> 
+
+              <div class="col-md-6 mb-4">
+                  <div class="ftco-testimonial-1">
+                    <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
+                      <img src="images/Customer/customer3.jpg" alt="Image" class="img-fluid mr-3">
+                      <div>
+                        <h3>Jessie Hanna Panjaitan</h3>
+                        <span>Customer</span>
+                      </div>
+                    </div>
+                    <div>
+                      <p>Sudah kesekian kali pake jasa kleenly laundry alhamdulillah belum pernah kecewa, antar jemput gratis walapun gag bisa langsung datang mesti dijadwalin :) </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="ftco-testimonial-1">
+                        <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
+                          <img src="images/Customer/customer4.jpg" alt="Image" class="img-fluid mr-3">
+                          <div>
+                            <h3>Dani Ginting</h3>
+                            <span>Customer</span>
+                          </div>
+                        </div>
+                        <div>
+                          <p>Terima Kasih Layanan Express membantu saya saat perjalanan ke ciputat, pelayanannya ramah, cucian juga bersih dan wangi </p>
+                        </div>
+                      </div>
+                </div> 
+        </div>
+      </div>
+    </section>
+
+  
+<!--    <section class="site-section1" id="news-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Promo &amp; Layanan Baru</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <a href="single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+              <h2 class="font-size-regular"><a href="single.html" class="text-dark">Popular Real Estate Properties for 2019</a></h2>
+              <div class="meta mb-4">Allison Holmes <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a class="warnakata" href="single.html">News</a></div>
+            </div> 
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <a href="single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+              <h2 class="font-size-regular"><a href="single.html" class="text-dark">Popular Real Estate Properties for 2019</a></h2>
+              <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a class="warnakata" href="single.html">News</a></div>
+              
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <a href="single.html"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
+              <h2 class="font-size-regular"><a href="single.html" class="text-dark">Popular Real Estate Properties for 2019</a></h2>
+              <div class="meta mb-4">Allison Holmes <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a  class="warnakata" href="single.html">News</a></div>
+            </div> 
+          </div>
+          
+        </div>
+      </div>
+    </section>
+-->
+   
+<!--
+
+    <section class="site-section1 bg-light bg-image" id="contact-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Contact Us</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7 mb-5">
+
+            
+
+            <form action="#" class="p-5 bg-white">
+              
+              <h2 class="h4 text-black mb-5">Form Masukkan</h2> 
+
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">Nama Depan</label>
+                  <input type="text" id="fname" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label class="text-black" for="lname">Nama Belakang</label>
+                  <input type="text" id="lname" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="email">Email</label> 
+                  <input type="email" id="email" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="subject">Subject</label> 
+                  <input type="subject" id="subject" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="message">Pesan/Masukkan</label> 
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Ketik pesan atau masukkan terhadap pelayanan dan website kami.."></textarea>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="Kirim Pesan" class="btn warnadasar btn-md text-white">
+                </div>
+              </div>
+
+  
+            </form>
+          </div>
+          <div class="col-md-5">
+            
+            <div class="p-4 mb-3 bg-white">
+              <p class="mb-0 font-weight-bold">Alamat</p>
+              <p class="mb-4">Jl.Jamin Ginting km 9.5 no.156, Mangga, Kec. Medan Tuntungan, Kota Medan, Sumatera Utara 20141</p>
+
+              <p class="mb-0 font-weight-bold">Phone</p>
+              <p class="mb-4"><a class="warnakata" href="#">0618367764</a></p>
+
+              <p class="mb-0 font-weight-bold">Email Address</p>
+              <p class="mb-0 "><a class="warnakata" href="#">kr5laundry@gmail.com</a></p>
+
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+ -->   
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-5">
+                <h2 class="footer-heading mb-4">About Us</h2>
+                <p>Sayang Isteri, Jangan Biarkan Dia Bekerja Cuci Mencuci. Karena Itu Adalah Tugas Kami</p>
+              </div>
+              <div class="col-md-3 mx-auto">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="mb-4">
+              <h2 class="footer-heading mb-4">Lokasi KR5 Laundry</h2>
+            <form action="#" method="post" class="footer-subscribe">
+              <div class="input-group mb-3">
+                <p>Jl. Letjend Jamin Ginting Km.9,5 No 156 P.Bulan Medan</p>
+                <div class="input-group-append">
+                  <a type="submit" href="https://www.google.com/maps/dir//kr+laundry/@3.5626578,98.6171019,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x30312f32b31bc5f7:0x1cf677247fca81cc!2m2!1d98.6522074!2d3.5625728" class="btn warnadasar text-black" type="button" id="button-addon2">Navigasi</a>
+                </div>
+              </div>
+            </form>  
+            </div>
+            
+            <div class="">
+              <h2 class="footer-heading mb-4">Follow Us</h2>
+                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="https://www.instagram.com/kr5laundry/" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            <p class="copyright">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> Website ini dibuat oleh <i class="icon-mouse text-info" aria-hidden="true"></i> by <a href="https://www.instagram.com/riopranata__/" target="_blank" >KR5 Laundry</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- .site-wrap -->
+
+  <a href="#top" class="gototop"><span class="icon-angle-double-up"></span></a> 
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+  
+  <script src="js/main.js"></script>
+  <script>
+$('#myModal').modal('show');
+</script>  
+  </body>
+</html>
