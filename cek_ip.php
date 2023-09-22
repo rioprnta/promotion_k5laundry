@@ -61,7 +61,7 @@ function get_client_browser() {
 ?>
 
 <?php
-$db = mysqli_connect('localhost', 'root', '', 'simpan_ip');
+$db = mysqli_connect('localhost', 'root', '', 'admin_kr5_laundry');
 if(!$db){
        die("Koneksi gagal: " . mysqli_connect_error());
 }

@@ -1,0 +1,23 @@
+.bg-navbar{
+    background-color: #e6e6e6;
+}
+.logo-admin{
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+.menu-text:active{
+    color: #ba0e0e;
+}
+.active-menu{
+    background-color: black;
+    color: white;
+}
+.menu-text{
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
